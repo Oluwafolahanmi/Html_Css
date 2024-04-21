@@ -1,0 +1,159 @@
+.kater{
+    height: 5%;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(209, 208, 204);
+}
+.kind{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1% 1% 0 1%;
+}
+.intel
+{
+    border: 1px solid rgb(189, 188, 186);
+    width: 85%;
+    height: 95%; 
+    background-color: white;
+    border-radius: 50px;
+    color: rgb(116, 115, 114);
+    text-align: left;
+}
+.intel:hover{
+    background-color: rgb(243, 242, 239);
+    border: 1px solid rgb(189, 188, 186);
+    color: rgb(116, 115, 114);
+}
+.moid{
+    width: 9%;
+    height: 95%;
+    border-radius: 100%;
+    background-image: url(./fola.jpg);
+}
+.uso{
+    width: 60%;
+    border-radius: 10px;
+}
+.uso:hover{
+    background-color: rgb(243, 242, 239);
+}
+.mzn{
+    height: 200px;
+}
+.mak{
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.did{
+    height: 100%;
+    width: 20%;
+    border-radius: 100%;
+    padding: 1.5% 3.5%;
+    font-size: 30px;
+    color: rgb(119, 118, 117);
+    background-color: rgb(243, 242, 239);
+}
+.did:hover{
+    box-shadow: 0px 2px 2px rgb(189, 188, 186);
+}
+.butin{
+    background-color: rgb(119, 118, 117);
+    border-radius: 30px; 
+}
+.derf{
+    height: 90%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.derf:hover{
+    background-color: rgb(189, 188, 186);
+}
+.lopo{
+    font-size: 25px;
+    padding-right: 3%;
+}
+.un1{
+    font-size: 25px;
+    color: green;
+}
+.un2{
+    font-size: 25px;
+    color: gold;
+}
+.un3{
+    font-size: 25px;
+    color: brown;
+}
+.kupo{
+    height: 1.5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.grty{
+    height: 2%;
+    background-color: rgb(155, 154, 152);
+    width: 80%;
+    margin-top: 0%;
+}
+.munt{
+    height: 5%;
+    width: 100%;
+    background-color: aqua;
+}
+.fret{
+    height: 20%;
+    width: 100%; 
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(189, 188, 186);
+}
+.getyy{
+    height: 8%;
+    width: 94%;
+    margin:0 3%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(189, 188, 186);
+}
+.vref{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+.junt{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.tred{
+    width: 10%;
+    height: 95%;
+    justify-content: space-around;
+    border-radius: 50px;
+}
+.tred:hover{
+    background-color: rgb(189, 188, 186);
+}
+.tayad{
+    width: 90%;
+    display: flex;
+    padding: 2%;
+}
+.buyt{
+    width: 50%;
+    padding: 10%;
+    height: 100%;
+}

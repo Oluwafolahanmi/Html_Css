@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(243, 242, 239);
+}
+.header{
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+.cat{
+    width: 71%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.img{
+    height: 70%;
+}
+.uto{
+    width: 130%;
+    height: 100%;
+    outline: none;
+    border: 0px;
+    border-radius: 3px;
+    background-color: rgb(238, 243, 248);
+    transition: all 0.1s ease-in;
+}
+.uto:focus-within{
+    width: 100%;
+    padding-left: 2%;
+}
+.bbb{
+    padding: 4% 3% 3% 5%;
+    font-size: 13px;
+    background-color:rgb(238, 243, 248) ;
+    margin-top: 0;
+    border-radius: 3px 0 0 3px;
+    color: rgb(33, 34, 34);
+}
+.hed{
+    font-size: 13px;
+}
+.bb{
+    height: 60%;
+    width: 40%;
+    border-radius: 100%;
+}
+.vv{
+    height: 70%;
+    background-color: white;
+    border: 0px;
+    border-radius: 5px;
+    width: 85%;
+    display: flex;
+}
+.vv:focus-within{
+    border: 2px solid black;
+    background-color:  rgb(238, 243, 248);  
+}
+.dem{
+    width: 245%;
+    height: 450px;
+    background-color: white;
+    margin-left: -23%;
+    margin-top: 2%;
+    border-radius: 10px;
+    border: 1px solid rgb(238, 243, 248);
+    display: none;
+    position: absolute;
+    z-index: 2;
+}
+.butt{
+    position: relative;
+}
+.butt:focus-within .dem{
+    display: block;
+}
+.butt.focus-within + .tryit{
+    display: block;
+}
+.hiy{
+    height: 100%;
+    width: 38%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.bay{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.xxx{
+    height: 100%;
+    width: 71%;
+    display: flex;
+}
+.yyy{
+    width: 28.5%;
+    height: 100%;
+    border-left: 1px solid  rgb(211, 211, 209);
+    display: flex;
+}
+.jkl{
+    height: 100%;
+    width: 16.67%;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: rgb(100, 101, 102);
+    flex-wrap: wrap;
+    padding-top: 5px;
+    border: 0px;
+    background-color: transparent;
+}
+.pp{
+    color: brown;
+    text-decoration: underline;
+    margin-top: 5px;
+}
+.oo{
+    width: 50%;
+}
+.od{
+    font-size: 15px;
+    margin-top: 0;
+}
+.ss{
+    margin-bottom: 0;
+    font-size: 25px;
+}
+.jkl:hover{
+    color: black;
+    cursor: pointer;
+}
+.pip{
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+}
+.kill{
+    color: rgb(33, 34, 34);
+    font-size: 13px;
+}
+.viv{
+    color: rgb(106, 107, 107);
+    font-size: 13px;
+}
+.dr{
+    display: flex;
+    margin: 3%;
+    height: 7%;
+}
+.nm{
+    padding-bottom: 10%;
+    border-bottom: 1px solid rgb(243, 242, 239);
+}
+.rty{
+    margin-left: 3%;
+    font-size: 15px;
+}
+.main1{
+    height: 300vh;
+    width: 71%;
+    margin-left: 15%;
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: space-between;
+}
+.toyy{
+    width: 20%;
+    height: 100%;
+}
+.mum{
+    height: 100%;
+    width: 48%;
+}
+.mub{
+    height: 100%;
+    width: 28%;
+}
+.ham{
+    height: 17.5%;
+    width: 100%;
+    border: 1px solid rgb(211, 211, 209);
+    border-radius: 3%;
+    background-color: white;
+}
+.rev{
+    height: 46%;
+    width: 100%;
+    border-radius: 3% 3% 0% 0%;
+    background-image: url(./bluish.png);
+    background-size: 100% 30%;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid rgb(211, 211, 209);
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 10%;
+}
+.mus{
+    border-radius: 100px;
+    width: 32%;
+    height: 43%;
+    margin-bottom: 10%;
+    border: 2px solid white;
+}
+.blu{
+    color: blue;
+}
+.mus:hover{
+    cursor: pointer;
+}
+.romo{
+    height: 23%;
+    width: 100%;
+    border-bottom: 1px solid rgb(211, 211, 209);
+    padding-top: 5%;
+}
+.yu:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.buns{
+    height: 20%;
+    width: 100%;
+    border-bottom: 1px solid rgb(211, 211, 209);
+    padding: 5% 3%;
+}
+.buns:hover{
+    background-color: rgb(211, 211, 209);
+    cursor: pointer;
+}
+.buns:hover .viv{
+    text-decoration: none;
+}
+.buns:hover .kill{
+    color: blue;
+}
+.tew{
+    height: 11%;
+    background-color: whie;
+    border-radius: 0 0 10% 10%;
+    display: flex;
+    padding: 5% 3%;
+}
+.cite{
+    height: 50%;
+    padding: 0 3%;
+}
+.j{
+    padding-right: 5%;
+}
+.don{
+    height: 28%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 3%;
+}
+.don:hover{
+    background-color: rgb(211, 211, 209);
+    cursor: pointer;
+}
+.bbc{
+    height: 50%;
+    justify-content: space-between;
+    display: flex;
+}
+.bile{
+    font-size: 13px;
+    color: blue;
+}
+.des{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+.cite:hover{
+    background-color: rgb(211, 211, 209);
+    cursor: pointer;
+}
+.vuty{
+    background-color: white;
+    height: 7%;
+    margin-top: 5%;
+    position: sticky;
+    top: 10%;
+    border-radius: 5%;
+    border: 1px solid rgb(211, 211, 209);
+}
+.tryit{
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+    opacity: 50%;
+    display: none;
+    z-index: 1;
+    position: fixed;
+}
+.made{
+    height: 70%;
+    width: 100%;
+    border-bottom: 1px solid rgb(211, 211, 209);
+    padding: 7% 3%;
+    justify-content: space-around;
+}
+.nuty{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    padding: 5%;
+    color: rgb(106, 107, 107);
+}
+.g{
+    padding-top: 4%;
+}
+.k:hover{
+    text-decoration: underline;
+}
+.xy{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+.w{
+    width: 16.5%;
+}
+.q:focus-within{
+    background-color: white;
+    border: 0;
+    box-shadow: none;
+    border-bottom: 1px solid rgb(211, 211, 209);
+}
+.q{
+    border-radius: 3% 3% 0 0;
+    box-shadow: none;
+    height: 1%;
+    display: flex;
+    padding: 2% 3%;
+    justify-content: space-around;
+}
+.desc{
+    height: 12.5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+.mano{
+    height: 25%;
+    display: flex;
+    padding: 0 5%;
+}
+.site{
+    height: 60%;
+    width: 20%;
+    border-radius: 100%;
+    background-image: url(./img1.jpg);
+    background-size: cover;
+}
+.bear{
+    height: 100%;
+    width: 80%;
+    padding: 3%;
+    line-height: 5%;
+}
+.ton{
+    background-color: transparent;
+    font-size: 17px;
+    width: 50%;
+    height: 35%;
+    border-radius: 40px;
+    border: 1px solid rgb(211, 211, 209);
+}
+.ton:hover{
+    background-color: rgb(211, 211, 209);
+    cursor: pointer;
+    border: 2px solid black;
+}
+.lli{
+    background-image: url(./img5.jpg);
+}
+.ll{
+    background-image: url(./img3.jpg);
+}
+.la{
+    font-size: 16px;
+    display: flex;
+}
+.suty{
+    height: 10%;
+    width: 100%;
+    position: sticky;
+    top: 10%;
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10%;
+}
+.ed{
+    width: 20%;
+    height: 100%;
+}
+.t:hover{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.fit{
+    border-radius: 50px;
+    width: 15%;
+}
+.oop{
+    width: 50%;
+    margin: 5% 3%;
+}
+.hut{
+    height: 50px;
+    width: 100%;
+    padding: 3%;
+}
+.pa{
+    padding: 0;
+}
+.vx{
+    height: 90%;
+    border: 0px;
+    border-radius: 5px;
+    width: 100%;
+    display: flex; 
+}
+.vx:hover{
+    border: 2px solid black;
+}
+.dig{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(211, 211, 209);
+}
+.my{
+    padding: 0;
+    height: 40px;
+    display: flex;
+    width: 100%;
+}
+.dig:focus-within{
+    border-bottom: 2px solid green;
+    color: green;
+}
+.dig:hover{
+    cursor: pointer;
+}
+.lko{
+    border-bottom:  1px solid rgb(211, 211, 209);
+}
+
+.liz{
+    height: 200px;
+    width: 100%;
+}
